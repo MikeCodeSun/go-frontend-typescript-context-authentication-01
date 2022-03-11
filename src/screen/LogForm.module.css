@@ -1,0 +1,60 @@
+.form {
+  width: 50%;
+  max-width: 600px;
+  margin: 5rem auto;
+  background-color: rgba(219, 238, 238, 0.568);
+  box-shadow: 5px 20px 25px -5px rgb(0 0 0 / 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.underline {
+  height: 5px;
+  background-color: black;
+  width: 3rem;
+  margin: 0 auto;
+}
+
+.formControl {
+  margin-bottom: 1rem;
+}
+.formLabel {
+  display: block;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.formInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.btnBlock {
+  width: 100%;
+  padding: 0.5rem;
+  text-transform: capitalize;
+
+  font-size: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: 0.5s ease-in-out all;
+  margin-top: 2rem;
+}
+
+.btnBlock:hover {
+  color: white;
+  background-color: black;
+}
